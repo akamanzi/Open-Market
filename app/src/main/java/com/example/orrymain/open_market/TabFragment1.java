@@ -44,12 +44,15 @@ public class TabFragment1 extends Fragment {
                     Log.d("gridview","item clicked");
                     switch (position) {
                         case 0:
+                            /*
                             Log.d("dialog","showing the Dialog");
                             Bundle case1 = new Bundle();
                             case1.putInt("position", position);
                             DialogFragment fragment = new TabDialog();
                             fragment.setArguments(case1);
-                            fragment.show(getActivity().getFragmentManager(),"fragment");
+                            fragment.show(getActivity().getFragmentManager(),"fragment"); */
+                            Intent list = new Intent(getActivity(), List_Redirection.class);
+                            startActivity(list);
                             break;
 
                     }

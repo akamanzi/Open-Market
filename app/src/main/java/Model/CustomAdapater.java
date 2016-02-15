@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.example.orrymain.open_market.R;
@@ -46,6 +47,7 @@ public class CustomAdapater extends BaseAdapter{
             listViewHolder.screenShot = (ImageView)convertView.findViewById(R.id.screen_shot);
             listViewHolder.musicName = (TextView)convertView.findViewById(R.id.music_name);
             listViewHolder.musicAuthor = (TextView)convertView.findViewById(R.id.music_author);
+            listViewHolder.ratingBar = (RatingBar)convertView.findViewById(R.id.rating_bar);
             convertView.setTag(listViewHolder);
         }else{
             listViewHolder = (ViewHolder)convertView.getTag();
@@ -53,11 +55,13 @@ public class CustomAdapater extends BaseAdapter{
         listViewHolder.screenShot.setImageResource(listStorage.get(position).getScreenShot());
         listViewHolder.musicName.setText(listStorage.get(position).getMusicName());
         listViewHolder.musicAuthor.setText(listStorage.get(position).getMusicAuthor());
+
         return convertView;
     }
     static class ViewHolder{
         ImageView screenShot;
         TextView musicName;
         TextView musicAuthor;
+        RatingBar ratingBar;
     }
 }

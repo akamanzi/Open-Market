@@ -1,4 +1,80 @@
 <resources>
     <string name="app_name">Open_Market</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name="speaker_names">
+        <item>Yariv Cohen</item>
+        <item>Kenji Fukuoka</item>
+        <item>Hon.Jean Philbert Nsengimana</item>
+        <item>Changarampatt Manoj</item>
+        <item>Okello Joshua</item>
+        <item>Mugethi Gitau </item>
+        <item>Daniela Marzavan</item>
+        <item>Stefanie Bauer</item>
+        <item>Andrew Nyamvumba</item>
+        <item>Paul McConnell </item>
+        <item>Solomon King</item>
+        <item>Jon Stever</item>
+        <item>Mohamed Aglan</item>
+        <item>Alex Soskin</item>
+        <item>S. Zain Khan</item>
+        <item>Herve Kubwimana</item>
+        <item>Ezekiel Odiogo </item>
+        <item>Hayama Kazuyuki </item>
+        <item>Sara Leedom </item>
+        <item>Yaron Kniajer</item>
+        <item>Mohamed Sallam</item>
+        <item>Hossam El Zayat</item>
+        <item>Brian Ndyaguma</item>
+        <item>Richard Barrett</item>
+        <item>Joseph Abdi</item>
+        <item>Gaspard Twagirayezu</item>
+        <item>Mr.Masato Hisamune</item>
+        <item>Nicolas Williams</item>
+        <item>Harveen Narulla</item>
+        <item>Lena Bernhofer</item>
+        <item>Hunter Thompson</item>
+        <item>Angela Homsi</item>
+    </string-array>
+
+    <!-- End of speaker Names -->
+
+    <!-- Speakers Company Names and Titles -->
+
+    <string-array name="speaker_Company_names">
+        <item>Chairman, Kaenaat</item>
+        <item>Director, Kobe Institution of Computing (KIC)</item>
+        <item>Minister of Youth and ICT in Rwanda</item>
+        <item>Telecom Professional</item>
+        <item>Co-founder, Cipher256 Co Ltd</item>
+        <item>Designer &amp; Writer of hergeekyness.com</item>
+        <item>Senior Lecturer, HTW Berlin University</item>
+        <item>Private Sector Development</item>
+        <item>CEO, Ngali Holdings</item>
+        <item>Tech Entrepreneur</item>
+        <item>Founder, Fundi Bots</item>
+        <item>Founder, Managing Director of The Office</item>
+        <item>AglanIT, creates Initiatives and startups</item>
+        <item>Chartered Management Accountant</item>
+        <item>Certified Management Consultant</item>
+        <item>Country Director, AIP</item>
+        <item>Principal Investment Officer, BAD</item>
+        <item>Co-founder &amp; Director of K.K Satisfactory International</item>
+        <item>Operations Manager at Inkomoko Business Development</item>
+        <item>Managing Director, Rhodium</item>
+        <item>Founder, STEBN</item>
+        <item>Founder &amp; CEO of SUNERGY</item>
+        <item>Manager, HIVE COLAB</item>
+        <item>Business Developer at KarmSolar</item>
+        <item>Co-founder, Jolis Intercom(Jolis.net)</item>
+        <item>Founder, CreationHill</item>
+        <item>Vice President of Mitsui &amp; Co.</item>
+        <item>Heads Division responsible BAD\'s Public Sector activities</item>
+        <item>Chairman, Hatcher</item>
+        <item>Strategic Management Consultant at Capgemini</item>
+        <item>Leads all of karisimbi partner\'s activities in Rwanda &amp; EA</item>
+        <item>Investor, Generation Investment Management</item>
+
+    </string-array>
+
 </resources>
